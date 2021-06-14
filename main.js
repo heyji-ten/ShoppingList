@@ -30,6 +30,10 @@ function createItem() {
     const item = document.createElement('div');
     item.setAttribute('class', 'item');
 
+    item.addEventListener('click', ()=> {
+        item.classList.toggle('check');
+    });
+
     const name = document.createElement('span');
     name.setAttribute('class', 'item__name');
     name.innerText = memo.value;
@@ -51,6 +55,8 @@ function createItem() {
     list__item.appendChild(divider);
 
     return list__item;
+
+    
 }
 
 addBtn.addEventListener('click', () => {

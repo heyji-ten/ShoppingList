@@ -48,14 +48,15 @@ button {
   padding: 8px 32px;
 }
 
+.item.check {
+  background-color: rgb(255, 173, 158);
+}
+
 .divider {
   width: 90%;
   height: 2px;
   background: lightgrey;
   margin: auto;
-}
-
-.item__name {
 }
 
 .item__delete {
