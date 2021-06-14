@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  background-color: #ccc3dd;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.shopping {
+  width: 300px;
+  margin: auto;
+  background-color: #eeeded;
+  border-radius: 20px;
+  -webkit-box-shadow: 9px 8px 12px 0px rgba(107, 107, 107, 0.46);
+  box-shadow: 9px 8px 12px 0px rgba(107, 107, 107, 0.46);
+}
+
+.shopping__title {
+  height: 50px;
+  background-color: skyblue;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+}
+
+.shopping__list {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+}
+
+.divider {
+  width: 90%;
+  height: 2px;
+  background: lightgrey;
+  margin: auto;
+}
+
+.item__name {
+}
+
+.item__delete {
+  font-size: 15px;
+  transition: all 300ms ease-in;
+}
+
+.item__delete:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+.shopping__bottom {
+  background-color: skyblue;
+  border-radius: 0 0 20px 20px;
+}
+
+.shopping__memo {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  padding: 0 16px;
+}
+
+.addbtn {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  transition: transform 300ms ease-in;
+}
+
+.addbtn:hover {
+  transform: scale(1.1);
+}
