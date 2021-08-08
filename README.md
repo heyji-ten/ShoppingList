@@ -10,6 +10,6 @@
 ### Language  
 * HTML
 * CSS
-* JavaScript
+* JavaScript (VanillaJS)
 
 ![preview](https://user-images.githubusercontent.com/59608643/121850902-6c0b5500-cd28-11eb-888f-de39955cbe2b.jpg)
